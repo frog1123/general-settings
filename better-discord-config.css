@@ -20,7 +20,7 @@
 
 :root {
   /* Background image variables */
-  --background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fb%2F9%2F4%2F483174-black-and-white-city-wallpaper-1920x1080-for-iphone.jpg&f=1&nofb=1&ipt=65df71af104679ae406477e98d34e7c65dd64b0ad82a6bbd3cb5402248241d6e&ipo=images'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image: url('https://github.com/frog1123/vscode-config/blob/master/better-discord-bg.png'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-image-blur: 30px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
   --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
   --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
@@ -32,7 +32,7 @@
   --popout-modal-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
 
   /* Home image variables */
-  --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg'); /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --home-button-image: url('https://github.com/frog1123/vscode-config/blob/master/better-discord-icon.png'); /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --home-button-size: cover; /* Size of the home button image | DEFAUT: cover */
   --home-button-position: center; /* Position of home button image | DEAFULT: center */
 
