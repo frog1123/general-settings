@@ -4,7 +4,7 @@ my general settings
 
 <div align="center">
 
-  <img src="./examples/example-02.png">
+  <img src="https://raw.githubusercontent.com/frog1123/general-settings/master/examples/example-02.png">
 
 </div>
 
@@ -33,7 +33,7 @@ alias build="./build.sh"
 
 <div align="center">
 
-  <img src="./examples/example-01.png">
+  <img src="https://raw.githubusercontent.com/frog1123/general-settings/master/examples/example-01.png">
 
 </div>
 
