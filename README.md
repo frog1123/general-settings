@@ -1,10 +1,15 @@
-my settings for vscode
+my general settings
 
-set settings `CTRL + P > Preferences: Open User Settings (JSON)`
+# better-discord
 
-set glass theme `CTRL + P > Reload Vibrancy`
+- DevilBro - BDFDB
+- DevilBro - GameActivityToggle
+- Zerebos - ZeresPluginLibrary
+- Marmota - SecretRingTone
 
-set custom terminal use https://github.com/frog1123/bashrc-config
+custom css => https://github.com/frog1123/vscode-config/blob/master/better-discord-config.css
+
+# .bashrc
 
 ```
 // .bashrc
@@ -17,6 +22,12 @@ export PS1="\[$(tput setaf 34)\]\u\[$(tput setaf 40)\]@\[$(tput setaf 46)\]\h \[
 alias cls="clear"
 alias build="./build.sh"
 ```
+
+# vscode
+
+set settings `CTRL + P > Preferences: Open User Settings (JSON)`
+
+set glass theme `CTRL + P > Reload Vibrancy`
 
 EXTENSIONS
 
