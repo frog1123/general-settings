@@ -17,7 +17,7 @@ custom css => https://github.com/frog1123/vscode-config/blob/master/better-disco
 
 # .bashrc
 
-```
+```bashrc
 // .bashrc
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
