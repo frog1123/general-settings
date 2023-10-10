@@ -2,6 +2,12 @@ my general settings
 
 # better-discord
 
+<div align="center">
+
+  <img src="./examples/example-02.png">
+
+</div>
+
 - DevilBro - BDFDB
 - DevilBro - GameActivityToggle
 - Zerebos - ZeresPluginLibrary
@@ -24,6 +30,12 @@ alias build="./build.sh"
 ```
 
 # vscode
+
+<div align="center">
+
+  <img src="./examples/example-01.png">
+
+</div>
 
 set settings `CTRL + P > Preferences: Open User Settings (JSON)`
 
