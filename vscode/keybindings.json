@@ -12,4 +12,5 @@
     "command": "selectPrevSuggestion",
     "when": "editorTextFocus && suggestWidgetVisible"
   }
+  // ! does not work for quick fix
 ]
