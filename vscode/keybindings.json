@@ -1,3 +1,4 @@
+// * vim *
 [
   {
     "key": "ctrl+j",
@@ -10,4 +11,3 @@
     "when": "editorTextFocus && suggestWidgetVisible"
   }
 ]
-

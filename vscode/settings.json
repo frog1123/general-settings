@@ -88,14 +88,26 @@
   "npm.keybindingsChangedWarningShown": true,
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 1,
-  "vim.useSystemClipboard": true,
   "redhat.telemetry.enabled": false,
 
   // * vim *
+  "vim.useSystemClipboard": true,
+  // vim quick normal mode
   "vim.insertModeKeyBindings": [
     {
       "before": ["k", "j"],
       "after": ["<Esc>"]
+    }
+  ],
+  // vim move lines
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["J"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.moveLinesUpAction"]
     }
   ],
 
