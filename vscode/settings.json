@@ -38,6 +38,14 @@
     "editor.formatOnSave": true
   },
 
+  // * Prettier Settings *
+  "prettier.arrowParens": "avoid",
+  "prettier.proseWrap": "never",
+  "prettier.printWidth": 175,
+  "prettier.trailingComma": "none",
+  "prettier.bracketSameLine": true,
+  "prettier.useEditorConfig": false,
+
   // * Live Server Settings *
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -68,12 +76,6 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
 
   // * Miscellaneous Settings *
-  "prettier.arrowParens": "avoid",
-  "prettier.proseWrap": "never",
-  "prettier.printWidth": 175,
-  "prettier.trailingComma": "none",
-  "prettier.bracketSameLine": true,
-  "prettier.useEditorConfig": false,
   "html.format.contentUnformatted": "",
   "settingsSync.ignoredSettings": [],
   "go.toolsManagement.autoUpdate": true,
