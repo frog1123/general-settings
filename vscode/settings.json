@@ -89,6 +89,7 @@
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 1,
   "redhat.telemetry.enabled": false,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
 
   // * vim *
   "vim.useSystemClipboard": true,
