@@ -10,10 +10,11 @@
   "editor.quickSuggestions": { "strings": true },
   "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": true, // true works
+  "editor.cursorSmoothCaretAnimation": "on", // true works
   "editor.cursorBlinking": "expand",
   "editor.wordWrapColumn": 500,
   "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.formatOnSave": true,
 
   // * File Explorer Settings *
   "files.exclude": {
@@ -100,5 +101,6 @@
 
   // * Screencast Settings
   "screencastMode.fontSize": 48,
-  "screencastMode.mouseIndicatorColor": "#00000000"
+  "screencastMode.mouseIndicatorColor": "#00000000",
+  "vscode_custom_css.imports": ["file:///c:/Users/a/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"]
 }
