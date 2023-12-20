@@ -1,5 +1,7 @@
-// * vim *
+// * keybinds to make vim easier *
+// ! if not working end vscode task and try again
 [
+  // move up and down in suggestions box
   {
     "key": "ctrl+j",
     "command": "selectNextSuggestion",
