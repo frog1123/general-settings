@@ -1,13 +1,13 @@
-// * vim *
 [
   {
-    "key": "j",
+    "key": "ctrl+j",
     "command": "selectNextSuggestion",
     "when": "editorTextFocus && suggestWidgetVisible"
   },
   {
-    "key": "k",
+    "key": "ctrl+k",
     "command": "selectPrevSuggestion",
     "when": "editorTextFocus && suggestWidgetVisible"
   }
 ]
+
