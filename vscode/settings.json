@@ -12,6 +12,9 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[java]": {
+    "editor.defaultFormatter": "mwpb.java-prettier-formatter"
+  },
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -20,8 +23,6 @@
   "prettier.proseWrap": "never",
   "prettier.printWidth": 175,
   "prettier.trailingComma": "none",
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
   "prettier.bracketSameLine": true,
   "explorer.compactFolders": false,
   "terminal.integrated.gpuAcceleration": "off",
@@ -71,5 +72,19 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "vscode_vibrancy.opacity": 0.1,
   "npm.keybindingsChangedWarningShown": true,
-  "window.titleBarStyle": "custom"
+  "window.titleBarStyle": "custom",
+  "editor.wordWrapColumn": 500,
+  "window.zoomLevel": 1,
+  "vim.useSystemClipboard": true,
+  "redhat.telemetry.enabled": false,
+  "tabnine.experimentalAutoImports": true,
+  "background.backgroundOpacity": [1, 0.9, 0.9, 0.9],
+  "background.backgroundSize": ["Cover", "Cover", "Cover", "Cover"],
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
+    }
+  ]
 }
