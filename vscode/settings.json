@@ -93,22 +93,33 @@
 
   // * vim *
   "vim.useSystemClipboard": true,
-  // vim quick normal mode
   "vim.insertModeKeyBindings": [
     {
+      // vim quick normal mode
       "before": ["k", "j"],
       "after": ["<Esc>"]
     }
   ],
-  // vim move lines
   "vim.normalModeKeyBindingsNonRecursive": [
     {
+      // vim move lines
       "before": ["J"],
       "commands": ["editor.action.moveLinesDownAction"]
     },
     {
+      // vim move lines
       "before": ["K"],
       "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+      // travel chunks of code
+      "before": ["["],
+      "after": ["{"]
+    },
+    {
+      // travel chunks of code
+      "before": ["]"],
+      "after": ["}"]
     }
   ],
 
