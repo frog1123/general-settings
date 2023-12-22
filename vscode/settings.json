@@ -99,6 +99,11 @@
       // vim quick normal mode
       "before": ["k", "j"],
       "after": ["<Esc>"]
+    },
+    {
+      // search files
+      "before": ["<C-p>"],
+      "commands": ["workbench.action.quickOpen"]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
