@@ -93,6 +93,7 @@
 
   // * vim *
   "vim.useSystemClipboard": true,
+  // "vim.leader": "",
   "vim.insertModeKeyBindings": [
     {
       // vim quick normal mode
@@ -120,6 +121,11 @@
       // travel chunks of code
       "before": ["]"],
       "after": ["}"]
+    },
+    {
+      // search files
+      "before": ["<C-p>"],
+      "commands": ["workbench.action.quickOpen"]
     }
   ],
 
