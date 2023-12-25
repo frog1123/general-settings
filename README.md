@@ -27,10 +27,12 @@ parse_git_branch() {
 }
 export PS1="\[$(tput setaf 34)\]\u\[$(tput setaf 40)\]@\[$(tput setaf 46)\]\h \[$(tput setaf 154)\]\W\[\033[1;32m\]\$(parse_git_branch)\[$(tput sgr0)\] \[$(tput sgr0)\]🌴 "
 
-// extra commands
-
+# more commands
 alias cls="clear"
 alias build="./build.sh"
+
+# quick cd to desktop may need to be changed pending on desktop location
+alias cdd="cd ~/OneDrive/Desktop"
 ```
 
 # vscode
