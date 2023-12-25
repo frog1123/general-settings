@@ -19,7 +19,7 @@ custom css => https://github.com/frog1123/vscode-config/blob/master/better-disco
 
 just copy this code into your .bashrc
 
-```bashrc
+```python
 // .bashrc
 
 parse_git_branch() {
