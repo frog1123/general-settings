@@ -10,7 +10,7 @@
   "editor.quickSuggestions": { "strings": true },
   "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": "on", // true works
+  "editor.cursorSmoothCaretAnimation": "off", // "on" | "off"
   "editor.cursorBlinking": "expand",
   "editor.wordWrapColumn": 500,
   "editor.unicodeHighlight.invisibleCharacters": false,
@@ -117,25 +117,28 @@
       "before": ["K"],
       "commands": ["editor.action.moveLinesUpAction"]
     },
-    {
-      // travel chunks of code
-      "before": ["["],
-      "after": ["{"]
-    },
-    {
-      // travel chunks of code
-      "before": ["]"],
-      "after": ["}"]
-    },
+    // {
+    //   // travel chunks of code
+    //   "before": ["["],
+    //   "after": ["{"]
+    // },
+    // {
+    //   // travel chunks of code
+    //   "before": ["]"],
+    //   "after": ["}"]
+    // },
     {
       // search files
       "before": ["<C-p>"],
       "commands": ["workbench.action.quickOpen"]
     }
   ],
+  "vim.visualModeKeyBindings": [],
 
   // * Screencast Settings
   "screencastMode.fontSize": 48,
   "screencastMode.mouseIndicatorColor": "#00000000",
-  "vscode_custom_css.imports": ["file:///c:/Users/a/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"]
+  // ! might need to be changed
+  "vscode_custom_css.imports": ["file:///c:/Users/a/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"],
+  "svg.preview.mode": "img"
 }
