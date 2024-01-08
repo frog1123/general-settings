@@ -73,6 +73,10 @@
     "Ubuntu (WSL)": {
       "path": "C:\\WINDOWS\\System32\\wsl.exe",
       "args": ["-d", "Ubuntu"]
+    },
+    "fish": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-e", "fish"]
     }
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -140,5 +144,6 @@
   "screencastMode.mouseIndicatorColor": "#00000000",
   // ! might need to be changed
   "vscode_custom_css.imports": ["file:///c:/Users/a/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"],
-  "svg.preview.mode": "img"
+  "svg.preview.mode": "img",
+  "workbench.startupEditor": "none"
 }
